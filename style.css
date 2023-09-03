@@ -425,8 +425,10 @@ background-color: rgb(49, 49, 71);
     }
        #downavbar{
        display: none;
-
     }
+    .topscoller{
+        display: none;
+       }
     /* #navbar{
          height: 20vh;
         } */
@@ -514,8 +516,10 @@ background-color: rgb(49, 49, 71);
     }
        #downavbar{
        display: none;
-
     }
+    .topscoller{
+        display: none;
+       }
     #countary{
         display: none;
        }
