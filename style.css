@@ -496,19 +496,19 @@ background-color: rgb(49, 49, 71);
     }
     .productcollection2{
         flex-wrap: wrap;
-        height: 120vh;
+        height: 90vh;
     }
     .product2{
         width: 30vw;
-        height: 48%;
+        height: 40%;
     }
         .productcollection1,.productcollection3{
         flex-wrap: wrap;
-        height: 90vh;
+        height: 70vh;
        }
        .product1{
         width: 45vw;
-        height: 40vh;
+        height: 30vh;
        }
     .fotter{
         height: 35vh;
