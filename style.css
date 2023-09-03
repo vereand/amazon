@@ -502,6 +502,14 @@ background-color: rgb(49, 49, 71);
         width: 30vw;
         height: 48%;
     }
+        .productcollection1,.productcollection3{
+        flex-wrap: wrap;
+        height: 90vh;
+       }
+       .product1{
+        width: 45vw;
+        height: 40vh;
+       }
     .fotter{
         height: 35vh;
     }
