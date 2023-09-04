@@ -466,7 +466,7 @@ background-color: rgb(49, 49, 71);
      border-radius: 7px;
     }
     .search{
-        width: 72vw;
+        width: 75vw;
         font-size: medium;
         border: none;
         
@@ -475,7 +475,7 @@ background-color: rgb(49, 49, 71);
         display: none;
     }
     #sb{
-     width: 11vw;
+     width: 13vw;
      border-radius: 5px;
     }
     #countary{
