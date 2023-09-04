@@ -255,11 +255,18 @@ background-color: rgb(49, 49, 71);
     width: 100%;
     height: 100%;
 }
-.fotter{
-    background-image: url('fotter.png');
+.fotter1{
+    background-image: url('fotter1.png');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100vh;
+}
+.fotter2{
+    display: none;
+    background-image: url('fotter2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 90vh;
 }
 @media screen and (max-width:1300px)  and (min-width:1050px){
     #leftdown span{
@@ -297,7 +304,7 @@ background-color: rgb(49, 49, 71);
        #sb{
         width: 4vw;
        }
-       .fotter{
+       .fotter1{
         height: 60vh;
     }
 }
@@ -352,7 +359,7 @@ background-color: rgb(49, 49, 71);
     #basket{
         width: 7.5vw;
     }
-    .fotter{
+    .fotter1{
         height: 50vh;
     }
 }
@@ -412,7 +419,7 @@ background-color: rgb(49, 49, 71);
         width: 30vw;
         height: 48%;
     }
-    .fotter{
+    .fotter1{
         height: 40vh;
     }
 }
@@ -512,8 +519,15 @@ background-color: rgb(49, 49, 71);
         width: 45vw;
         height: 30vh;
        }
-    .fotter{
-        height: 35vh;
+      .fotter1{
+        display: none;
+    }
+    .fotter2{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        align-items: center;
+        margin: auto;
     }
 }
 
@@ -611,8 +625,15 @@ background-color: rgb(49, 49, 71);
      width: 45vw;
      height: 40vh;
     }
-    .fotter{
-        height: 30vh;
+   .fotter1{
+        display: none;
+    }
+    .fotter2{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        align-items: center;
+        margin: auto;
     }
 }
 @media screen and (max-width:220px){
@@ -713,7 +734,14 @@ background-color: rgb(49, 49, 71);
      width: 80vw;
      height: 40vh;
     }
-    .fotter{
-        height: 20vh;
+    .fotter1{
+        display: none;
+    }
+    .fotter2{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        align-items: center;
+        margin: auto;
     }
 }
