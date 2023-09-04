@@ -441,10 +441,7 @@ background-color: rgb(49, 49, 71);
         height: 7vh;
         align-items: center;
     }
-    #all{
-        width: 5.3vw;
-        height: 100%;
-    }
+
     #logo{
         width: 20vw;
         height: 95%;
@@ -458,16 +455,21 @@ background-color: rgb(49, 49, 71);
     #search{
      width: 90vw;
      height: 85%;
+     background-color: white;
+     border-radius: 7px;
     }
     .search{
         width: 72vw;
         font-size: medium;
+        border: none;
+        
     }
     #all{
-        width: 10vw;
+        display: none;
     }
     #sb{
-     width: 9vw;
+     width: 11vw;
+     border-radius: 5px;
     }
     #countary{
      display: none;
